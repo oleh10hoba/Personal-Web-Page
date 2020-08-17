@@ -1,0 +1,29 @@
+input:invalid
+{
+    color: red;
+}    
+table
+{
+    background: blue;
+    margin: 2%;
+    border: 1pt solid lightyellow;
+    margin-left:auto; 
+    margin-right:auto;
+}
+thead,tfoot
+{
+    color: yellow;   
+}
+caption
+{
+    font-size: 150%;
+}
+tbody
+{
+    background: lightyellow;
+    color:green;
+}
+tbody tr:nth-child(odd)
+{
+    background-color: #f8eb78;   
+}

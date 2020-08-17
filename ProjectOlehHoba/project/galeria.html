@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Galeria</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/nav.js"></script>
+  <script src="js/galeria.js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/img19.jpg" type="image/x-icon">
+  <link href="css/small-business.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/galeria.css" /> 
+
+</head>
+
+<body onLoad="getSecs()">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="logIn.html">Oleh HOBA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+      </div>
+    </div>
+  </nav>
+  <div class="time-on-page" style="float:right;background-color: gray;">
+    Jesteście już:
+    <span id='timer-counter' style='color:green;font-size:150%;font-weight:bold;'></span>
+    minut/sekund na tej stronie.
+  </div>
+  <aside>
+    <button class="btn btn-primary" onclick="press1()">1</button>
+      <button class="btn btn-primary" onclick="press2()">2</button>
+      <button class="btn btn-primary" onclick='press3()'>3</button>   
+  </aside>
+  <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+  
+ 
+
+  <div class="container">
+
+
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Galeria zdjęć</h1>
+        <p>Stronka z wykorzystaniem biblioteki jQuery</p>
+        <a class="btn btn-primary" href="logIn.html">Do logowania</a>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+    <!-- Call to Action Well -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <div class="card-body">
+        <p class="text-white m-0">Lublin i (łac. Lublinum) – miasto na prawach powiatu we wschodniej Polsce, stolica województwa i powiatu lubelskiego, centralny ośrodek aglomeracji lubelskiej. Dziewiąte co do wielkości populacji miasto w Polsce, drugie w Małopolsce (339 811 mieszkańców na koniec 2018 roku). Pod względem powierzchni szesnaste (147 km²).
+
+          Położone na Wyżynie Lubelskiej nad Bystrzycą, na dwóch odmiennych obszarach: zachodnim, o urozmaiconej rzeźbie terenu, z licznymi wąwozami, dolinami, wzgórzami oraz wierzchowinami, oraz wschodnim, płaskim. Historycznie Lublin ulokowany był nieopodal granicy Małopolski z Rusią Czerwoną, współcześnie jest położony w odległości ok. 170 km od stolicy Polski i ok. 100 km od przejścia granicznego z Ukrainą.
+          
+          Osada handlowa, położona na szlaku prowadzącym z okolic Morza Czarnego, istniała w tym miejscu od VI w. Od X do XV w. Lublin należał do jednostki administracyjnej, której centrum był Sandomierz. W I Rzeczypospolitej był ważnym ośrodkiem administracyjnym, handlowym i kulturalnym. Od połowy XVII w. i w XVIII w. miasto podupadło i zubożało. W wyniku III rozbioru znalazło się w zaborze austriackim, następnie kolejno: w Księstwie Warszawskim i Królestwie Polskim. W 3. ćwierci XIX w. Lublin, włączony Koleją Nadwiślańską do rosyjskiej sieci kolejowej, szybko rozrósł się i nabrał charakteru przemysłowego. Zmienił się także jego kształt urbanistyczny. W pierwszej i drugiej wojnie światowej padł ofiarą gospodarki rabunkowej i Holokaustu. W okresie PRL nastąpił gwałtowny rozwój Lublina. W tym czasie ludność wzrosła ponad trzykrotnie. Umocnił się akademicki charakter miasta. Zbudowano szereg zakładów przemysłowych, wzniesiono nowe dzielnice mieszkaniowe.     
+          Od 2004 przeprowadzane są liczne inwestycje z funduszy Unii Europejskiej. Miasto rozwija się jako ośrodek nauki, kultury, turystyki, sportu i rekreacji, a także usług i przemysłu. Umacnia się jako węzeł transportowy: posiada ekspresową obwodnicę w ciągu planowanej Via Carpathia oraz port lotniczy. Lublin jest członkiem Unii Metropolii Polskich, siedzibą instytucji samorządowych i państwowych, konsulatów, brygady litewsko-polsko-ukraińskiej, archidiecezji i metropolii Kościoła katolickiego oraz diecezji Kościoła prawosławnego.</p>
+      </div>
+    </div>
+
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Lublin zimą</h2>
+            <figure>
+              <a href="img/l6.jpg" target="_blank"><img src="img/l6.jpg" alt="Zdjęcie 1"></a>
+          </figure>
+          </div>
+          <div class="card-footer">
+            <a href="img/l6.jpg" target="_blank" class="btn btn-primary btn-sm">Otwórz</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Plan kampusu politechniki</h2>
+            <figure>
+              <a href="img/l7.png" target="_blank"><img src="img/l7.png" alt="Zdjęcie 3"></a>
+          </figure>
+          </div>
+          <div class="card-footer">
+            <a href="img/l7.png" target="_blank" class="btn btn-primary btn-sm">Otwórz</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Lublin nocą</h2>
+            <figure>
+              <a href="img/l5.jpg" target="_blank"><img src="img/l5.jpg" alt="Zdjęcie 3"></a>
+          </figure>
+          </div>
+          <div class="card-footer">
+            <a href="img/l5.jpg" target="_blank" class="btn btn-primary btn-sm">Otwórz</a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+
+    </div>
+    <!-- /.row -->
+
+  <section>
+    <div>
+        <h2>Galeria</h2>
+        <figure>
+            <a href="img/01.jpg" target="_blank"><img src="img/01.jpg" alt="Zdjęcie 1"></a>
+        </figure>
+        <figure>
+            <a href="img/02.jpg" target="_blank"><img src="img/02.jpg" alt="Zdjęcie 2"></a>
+        </figure>
+        <figure>
+            <a href="img/03.jpg" target="_blank"><img src="img/03.jpg" alt="Zdjęcie 3"></a>
+        </figure>
+        <figure>
+            <a href="img/04.jpg" target="_blank"><img src="img/04.jpg" alt="Zdjęcie 4"></a>
+        </figure>
+        <figure>
+            <a href="img/05.jpg" target="_blank"><img src="img/05.jpg" alt="Zdjęcie 5"></a>
+        </figure>
+        <figure>
+            <a href="img/06.jpg" target="_blank"><img src="img/06.jpg" alt="Zdjęcie 6"></a>
+        </figure>
+    </div>
+</section>
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OH 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

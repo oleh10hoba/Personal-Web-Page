@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Kontakt</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/nav.js"></script>
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/small-business.css" rel="stylesheet">
+  <link rel="shortcut icon" href="img/contact.png" type="image/x-icon">
+</head>
+
+<body onLoad="doWave('Oleh Hoba', 1); getSecs(); doImageWave(8, 1)">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="logIn.html">Oleh HOBA</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+
+      </div>
+    </div>
+  </nav>
+
+  <div class="time-on-page" style="float:right;background-color: gray;">
+    Jesteście już:
+    <span id='timer-counter' style='color:green;font-size:150%;font-weight:bold;'></span>
+    minut/sekund na tej stronie.
+  </div>
+  <div style="text-align: center;" id="wave"></div>
+  
+  <!-- Page Content -->
+  <div class="container">
+
+    <!-- Heading Row -->
+    <div class="row align-items-center my-5">
+      <div class="col-lg-7">
+        <div id="przykladowaKaruzela" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block w-100" src="img/img2.jpg" alt="Pierwszy slajd">
+              <div id="imagewave"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- /.col-lg-8 -->
+      <div class="col-lg-5">
+        <h1 class="font-weight-light">Kontakt</h1>
+        <p>Jestem studentem II roku WEiI Politechniki Lubelskiej</p>
+        <form name = "blinkbutton">
+          <input type="button" name="button" value="Do logowania" class="btn btn-primary"  onMouseOver='mouseOver()' onMouseOut='mouseOut()' style="background-color: #1400FF">
+        </form>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <h4 style="cursor:pointer;" onClick="expandit('ans1')">O politechnice</h4>
+      <div id = "ans1" style="display:none">
+        Politechnika Lubelska powstała z inicjatywy lubelskiego środowiska techników, inżynierów i naukowców w roku 1953.
+        Obecnie w strukturze organizacyjnej Politechniki Lubelskiej funkcjonuje sześć wydziałów:  
+        Wydział Mechaniczny,
+        Wydział Elektrotechniki i Informatyki,
+        Wydział Budownictwa i Architektury,
+        Wydział Inżynierii Środowiska,
+        Wydział Zarządzania,
+        Wydział Podstaw Techniki, 
+        oraz jednostki międzywydziałowe i ogólnouczelniane:
+        Studium Języków Obcych,
+        Studium Wychowania Fizycznego i Sportu,
+        Centrum Informacji Naukowo-Technicznej,
+        Szkoła Doktorska w PL,
+        Centrum Informatyczne,
+        Centrum Innowacji i Transferu Technologii,
+        Centrum Promocji i Informacji,
+        Biuro Projektów,
+        Biuro Karier i Współpracy z Otoczeniem Społeczno-Gospodarczym,
+        Uczelniane Laboratorium Innowacyjnych Technik Pomiarowych,
+        Biuro Rzecznika Patentowego,
+        Biuro Kształcenia Międzynarodowego,
+        Od chwili powstania Politechnika Lubelska kształci kadrę inżynierską i prowadzi badania naukowe, głównie na potrzeby naszego regionu.
+        Główne kierunki badań naukowych prowadzonych obecnie w uczelni związane są z rozwojem konstrukcji i technologii, ochroną środowiska oraz oszczędnością materiałów i energii.
+        Politechnika Lubelska wykonuje ekspertyzy i prowadzi działalność konsultingową.
+        Efektem prowadzonych tu badań są ponadto liczne publikacje naukowe, a także patenty i prawa ochronne.
+        Do dyspozycji naukowców, studentów i wszystkich zainteresowanych pozostaje Biblioteka Politechniki Lubelskiej. Tu także gromadzone są publikacje pracowników Politechniki Lubelskiej.
+      </div>
+    </div>
+    
+    <div class="card text-white bg-secondary my-5 py-4 text-center">
+      <h4 style="cursor:pointer;" onClick="expandit('ans2')">O wydziale</h4>
+      <div id = "ans2" style="display:none">
+        Wydział Elektrotechniki i Informatyki Politechniki Lubelskiej został utworzony w 1964 roku, jeszcze w Wieczorowej Szkole Inżynierskiej. W 1965 roku Wieczorową Szkołę Inżynierską przekształcono w Wyższą Szkołę Inżynierską i od tego momentu Wydział rozpoczął kształcenie w systemie studiów dziennych, a od roku akademickiego 1973/74 kształcenie w systemie jednolitych studiów magisterskich.
+        Aktualnie na wydziale Elektrotechniki i Informatyki kształci się studentów na dwóch kierunkach, tj. elektrotechnika i od 2000 roku również informatyka. Na kierunku elektrotechnika kształcenie realizowane jest na trzech specjalnościach: elektroenergetyka, przetwarzanie i użytkowanie energii elektrycznej oraz inżynierskie zastosowania informatyki, zaś na kierunku informatyka na sześciu specjalnościach: systemy teleinformatyki i sieci komputerowe, inżynieria oprogramowania i systemy baz danych, grafika komputerowa i multimedia, administracja i bezpieczeństwo systemów informatycznych, przemysłowe systemy informatyczne, narzędzia gospodarki elektronicznej.
+        Wydział posiada ugruntowaną pozycję w kraju i dobrą opinię w regionie, czego dowodem jest stała współpraca z przemysłem, organizacjami o charakterze gospodarczym oraz uczelniami Lublina. Pracownicy Wydziału są m.in. członkami szeregu organizacji, w których też często pełnią kierownicze funkcje. Są członkami Komitetu Elektrotechniki PAN, Sekcji Wielkich Mocy PAN, Sekcji Systemów  Elektroenergetycznych PAN, Sekcji Optoelektroniki PAN.
+        Wydział Elektrotechniki i Informatyki Politechniki Lubelskiej prowadzi też bardzo aktywną działalność naukowo-badawczą w dyscyplinie elektrotechnika oraz informatyka zarówno w kraju, jak i za granicą.
+      </div>
+    </div>
+    
+
+    <!-- Content Row -->
+    <div class="row">
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Instagram</h2>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.instagram.com/oleh.hoba/" class="btn btn-primary btn-sm" target="_blank"><img src="img/instagram.jpg" alt="insta" style="height: 50px;border-radius: 25px;" ></a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">FaceBook</h2>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <a href="https://www.facebook.com/oleh.hoba" class="btn btn-primary btn-sm" target="_blank"><img src="img/facebook.jpeg" alt="fb" style="height: 50px;border-radius: 25px;" ></a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+      <div class="col-md-4 mb-5">
+        <div class="card h-100">
+          <div class="card-body">
+            <h2 class="card-title">Gmail</h2>
+            <p class="card-text"></p>
+          </div>
+          <div class="card-footer">
+            <a href="mailto:oleh.hoba@pollub.edu.pl" class="btn btn-primary btn-sm"><img src="img/gmail.jpeg" alt="gmail" style="width: 50px;border-radius: 25px;" ></a>
+          </div>
+        </div>
+      </div>
+      <!-- /.col-md-4 -->
+    </div>
+    <!-- /.row -->
+
+  </div>
+  <!-- /.container -->
+
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">Copyright &copy; OH 2020</p>
+    </div>
+    <!-- /.container -->
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>

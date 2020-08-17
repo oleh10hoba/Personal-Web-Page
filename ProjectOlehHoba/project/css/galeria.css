@@ -1,0 +1,70 @@
+@media screen and (max-width: 720px) 
+{
+    figure 
+    {
+        background-color: green;
+        border-radius: 20px;
+        margin: 1.2%  1% 5% 0.5%;
+        width: 31%;
+        height: 15%;
+        float: left;
+        opacity: 1;
+    }
+    figure img
+    {
+        border-radius: 50px;
+        float: left;
+        width: 98%;
+        height: auto;
+        margin: 1% 1%;
+        opacity: 1;
+        transition: transform 0.5s ease-in-out;
+    }
+}
+@media screen and (min-width: 720px) 
+{
+    figure 
+    {
+        background-color: gold;
+        border-radius: 20px;
+        margin: 1.2%  1% 5% 0.5%;
+        width: 15%;
+        height: 15%;
+        float: left;
+        opacity: 1;
+    }
+    figure img
+    {
+        border-radius: 50px;
+        float: left;
+        width: 98%;
+        height: auto;
+        margin: 1% 1%;
+        opacity: 1;
+        transition: transform 0.5s ease-in-out;
+    }
+}
+header
+{
+    background-color: green;
+    text-align: center;
+    margin-top: 70px;
+    box-shadow: 10px 10px lightgreen;
+}
+
+figure img:hover
+{
+    transform: scale(1.2) rotate(-360deg);
+    opacity: 0.8;
+}
+.card-body > figure
+{
+    height: 77%;
+    width: 100%;
+    background-color: aqua;
+    opacity: 1;
+}
+.card-body > h2
+{
+    text-align: center;
+}
